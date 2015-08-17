@@ -1,0 +1,202 @@
+html {
+	padding: 0;
+	vertical-align: middle;
+	margin: auto;
+	background-color: #759D00;
+}
+
+body {
+	background-color: #759D00;
+}
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+h1 {
+	color: red;
+	margin: 0;
+	padding: 0;
+	vertical-align: top;
+	text-align: center;
+	font: 250% "Indie Flower", cursive;
+}
+
+h2 {
+	border: 0;
+	font-size: 180%;
+	margin: 0;
+	padding: 0;
+}
+
+h3 {
+	color: #f8981c;
+	font-size: 189%;
+	margin: 0;
+	padding: 0;
+	vertical-align: top;
+	text-align: center;
+}
+
+h4 {
+	color: #f8981c;
+	font-size: 115%;
+	text-align: left;
+	margin-left: 0;
+	vertical-align: top;
+}
+
+p {
+	border: 0;
+	font-size: 125%;
+	margin: 0;
+	padding: 0;
+	vertical-align: top;
+}
+
+.grid {
+	margin: 0 auto;
+	width: 100%;
+}
+
+.row {
+	width: 100%;
+	margin-bottom: 20px;
+	display: flex;
+
+}
+
+.col-1 {
+	width: 8.33%;
+	border-style: solid;
+    border-color: #759D00;
+}
+
+.col-2 {
+	width: 24.99%;
+	background-color: #759D00;
+	padding: 20px;
+
+}
+
+.col-3 {
+	width: 24.99%;
+	background-color: #E3EBCC;
+	padding: 20px;
+
+}
+
+.col-4 {
+	width: 33.33%;
+	color: #747704;
+	margin: 1.5%;
+	text-align: center;
+}
+
+.col-5 {
+
+}
+
+.col-6 {
+
+}
+
+.col-7 {
+
+}
+
+.col-8 {
+	width: 66.66%;
+	background-color: white;
+	padding: 20px;
+}
+
+.col-9 {
+	width: 74.97%;
+	color: #f8981c;
+	border: 0;
+	font-size: large;
+	margin: 0;
+	padding: 0;
+	vertical-align: top;
+	text-align: center;
+
+}
+
+.col-10 {
+	width: 83.3%;
+	color: #f8981c;
+	border: 0;
+	font-size: large;
+	margin: 0;
+	padding: 0;
+	vertical-align: top;
+	text-align: center;
+
+}
+
+.col-11 {
+
+}
+
+.col-12 {
+	width: 100%;
+	color: #f8981c;
+	border: 0;
+	font-size: large;
+	margin: 0;
+	padding: 0;
+	vertical-align: top;
+	text-align: center;
+}
+
+img {
+	max-width: 100%;
+	padding: 10;
+	margin: 0;
+	display: block;
+	vertical-align: top;
+	text-align: center;
+	height: auto;
+	width: auto;
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+@media only screen and (max-width: 360px) {
+	img {
+		display: none;
+	}
+	h3 {
+		font-size: small;
+	}
+	p {
+		font-size: small;
+	}
+	h1 {
+		font-size: 150%;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	h3 {
+		font-size: 100%;
+	}
+	p {
+		font-size: 100%;
+	}
+}
+
+.jumbotron {
+	background-color: #759D00;
+	width:100%;
+	margin-botom: 20px;
+	padding: 0px;
+}
+
+.jumbotron .h1,.jumbotron h1{color:red}
